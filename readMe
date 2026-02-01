@@ -22,14 +22,5 @@ int main() {
     float result = sum_two_numbers(num1, num2);
     cout << "Sum: " << result << endl;
     
-    if (operation == '+') {
-        result = sum_two_numbers(num1, num2);
-        cout << "Sum: " << result << endl;
-    } else if (operation == '-') {
-        result = num1 - num2;
-        cout << "Difference: " << result << endl;
-    } else {
-        cout << "Invalid operation!" << endl;
-    }
     return 0;
 }
