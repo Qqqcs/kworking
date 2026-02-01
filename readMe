@@ -16,6 +16,18 @@ int main() {
     
     float result = sum_two_numbers(num1, num2); // Вызываем функцию для сложения двух чисел
     cout << "Sum: " << result << endl;  // Выводим результат
+    char operation;
+    cout << "Choose operation (+ for plus, - for minus): ";
+    cin >> operation;
     
+    if (operation == '+') {
+        result = sum_two_numbers(num1, num2);
+        cout << "Sum: " << result << endl;
+    } else if (operation == '-') {
+        result = num1 - num2;
+        cout << "Difference: " << result << endl;
+    } else {
+        cout << "Invalid operation!" << endl;
+    }
     return 0;
 }
