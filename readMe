@@ -11,16 +11,13 @@ int main() {
     
     cin >> num2;
     
-<<<<<<< HEAD
     float result = sum_two_numbers(num1, num2); // Вызываем функцию для сложения двух чисел
     cout << "Sum: " << result << endl;  // Выводим результат
     char operation;
     cout << "Choose operation (+ for plus, - for minus): ";
     cin >> operation;
-=======
     float result = sum_two_numbers(num1, num2);
     cout << "Sum: " << result << endl;
->>>>>>> parent of d154148 (add coments)
     
     if (operation == '+') {
         result = sum_two_numbers(num1, num2);
