@@ -6,19 +6,21 @@ float sum_two_numbers(float a, float b) {
 }
 
 int main() {
-    float num1, num2; //Берем два числа от потребителя
     
-    cout << "Enter first number: "; // Запрашиваем первое число
     cin >> num1;
     
-    cout << "Enter second number: "; // Запрашиваем второе число
     cin >> num2;
     
+<<<<<<< HEAD
     float result = sum_two_numbers(num1, num2); // Вызываем функцию для сложения двух чисел
     cout << "Sum: " << result << endl;  // Выводим результат
     char operation;
     cout << "Choose operation (+ for plus, - for minus): ";
     cin >> operation;
+=======
+    float result = sum_two_numbers(num1, num2);
+    cout << "Sum: " << result << endl;
+>>>>>>> parent of d154148 (add coments)
     
     if (operation == '+') {
         result = sum_two_numbers(num1, num2);
